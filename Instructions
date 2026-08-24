@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hướng dẫn - Danh sách khách mời Quốc khánh</title>
+  <style>
+    html, body {
+      min-height: 100%;
+      background: rgba(123, 17, 19, 0.05);
+    }
+    body {
+      font-family: "Noto Serif", "Times New Roman", Georgia, serif;
+      margin: 0;
+      padding: 32px 0 48px 0;
+      line-height: 1.6;
+      color: #222;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #e3d6d7;
+      border-radius: 10px;
+      padding: 32px 36px;
+      box-shadow: 0 2px 10px rgba(123, 17, 19, 0.06);
+    }
+    h1 {
+      font-size: 1.4rem;
+      color: #7B1113;
+      margin: 0 0 24px 0;
+      text-align: center;
+    }
+    ol.main-list {
+      padding-left: 22px;
+      margin: 0;
+    }
+    ol.main-list > li {
+      margin-bottom: 22px;
+    }
+    ol.sub-list {
+      list-style: lower-alpha;
+      padding-left: 22px;
+      margin: 8px 0;
+    }
+    ol.sub-list > li {
+      margin-bottom: 8px;
+    }
+    ul.plain-list {
+      list-style: none;
+      padding-left: 18px;
+      margin: 8px 0;
+    }
+    ul.plain-list > li {
+      margin-bottom: 4px;
+    }
+    ul.dash-list {
+      padding-left: 22px;
+      margin: 8px 0;
+    }
+    ul.dash-list > li {
+      margin-bottom: 6px;
+    }
+    .field {
+      font-family: "Courier New", monospace;
+      background: #f3ecec;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-size: 0.92em;
+      color: #7B1113;
+    }
+    .footer-note {
+      margin-top: 28px;
+      text-align: right;
+      color: #555;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Một số lưu ý về danh sách khách mời Quốc khánh</h1>
+
+      <ol class="main-list">
+        <li>
+          Lãnh đạo Sứ quán đã cho ý kiến về quota khách mời như sau:
+          <ul class="plain-list">
+            <li>Phòng Chính trị:</li>
+            <li>Phòng Kinh tế:</li>
+            <li>Phòng Lãnh sự:</li>
+            <li>Văn phòng:</li>
+            <li>Quân vụ:</li>
+            <li>Anh Dương:</li>
+            <li>Anh Quốc Hương:</li>
+            <li>Thương vụ:</li>
+            <li>KHCN:</li>
+            <li>TTX:</li>
+            <li>VOV:</li>
+            <li>VTV:</li>
+          </ul>
+          Ngoại trừ một số quan chức cao cấp hoặc một số khách rất thân thiết, ta chỉ mời riêng khách, không mời +1.
+        </li>
+
+        <li>
+          SQ đã nhập thông tin khách mời dịp Quốc khánh 2025 để các đơn vị tham khảo và tiện cập nhật. Trân trọng đề nghị các anh chị chủ động xóa thông tin của những khách không mời năm nay để tránh nhầm lẫn.
+        </li>
+
+        <li>
+          Để nhập thông tin của khách (lần đầu), trân trọng đề nghị các anh chị:
+          <ol class="sub-list">
+            <li>Tìm đúng đề mục của đơn vị hoặc cán bộ trên Google Sheet. Nhấp chuột trái vào dấu <strong>▶</strong> ở phía bên trái tên đơn vị/tên cán bộ để mở danh sách khách.</li>
+            <li>
+              Điền thông tin vào 3 cột:
+              <ul class="dash-list">
+                <li><span class="field">Name</span>: Điền cả danh xưng (The Honorable Howard Lutnick, The Honorable Jim Risch, His Excellency Xie Feng, Dr. Kurt Campbell, Ms. Mary Tarnowka…). Nếu không điền danh xưng vào danh sách, giấy mời cũng sẽ không in danh xưng.</li>
+                <li><span class="field">Title and Office</span>: Điền bằng tiếng Anh, ngắn gọn. Thông tin này sẽ hiện trên form đăng ký của khách.</li>
+                <li><span class="field">Status</span>: Với những khách nào đã sẵn sàng để xuất giấy mời, điền hai chữ <strong>ok</strong>. Nếu không có <strong>ok</strong> trong cột <span class="field">Status</span>, SQ sẽ chưa xuất giấy mời.</li>
+              </ul>
+            </li>
+            <li>
+              Những anh chị nào có nhu cầu gửi giấy mời tự động đến khách, xin:
+              <ul class="dash-list">
+                <li>Điền thêm địa chỉ hòm thư của khách vào cột <span class="field">Email</span>.</li>
+                <li>Gửi địa chỉ hòm thư của anh chị cho PCT để nhận cc.</li>
+              </ul>
+              Nếu không có thông tin trong cột <span class="field">Email</span>, SQ sẽ không gửi giấy mời tự động cho khách.
+            </li>
+          </ol>
+        </li>
+
+        <li>
+          Sau khi xuất, giấy mời của khách có thể tải xuống tại cột <span class="field">Drive Link</span>. Riêng đối với lần xuất giấy mời đầu tiên, SQ cũng sẽ chuyển trực tiếp đến các anh chị để tiện quản lý. Với những giấy mời phải sửa lại hoặc bổ sung, trân trọng đề nghị các anh chị chủ động tải xuống từ cột <span class="field">Drive Link</span>.
+        </li>
+
+        <li>
+          Trong trường hợp đã xuất giấy mời, nhưng phát hiện sai thông tin của khách, hoặc khách ủy quyền cho người khác dự thay, trân trọng đề nghị các anh chị:
+          <ol class="sub-list">
+            <li>Xóa toàn bộ thông tin cũ của khách để tránh nhầm lẫn hoặc trùng lặp.</li>
+            <li>Tìm đề mục <strong>“Additional Guests”</strong> ngay đầu Google Sheet và nhập mới thông tin của khách. Không nhập lại vào đề mục của đơn vị hoặc cán bộ.</li>
+            <li>
+              Ngoài thông tin trong 4 cột <span class="field">Name</span>, <span class="field">Title and/or Organization</span>, <span class="field">Email</span>, và <span class="field">Status</span>, nhập thêm thông tin vào cột <span class="field">Host</span>:
+              <ul class="dash-list">
+                <li>Với các cán bộ PCT và PKT, anh Dương, và anh Quốc Hương, điền các chữ cái đầu (không dấu) của họ tên. Ví dụ: TCT, DKL, LTHV, PTTT…</li>
+                <li>Với các phòng và cơ quan khác, nhập ký hiệu của đơn vị: VP, PLS, QV, TV, KHCN, TTX, VOV, VTV</li>
+              </ul>
+            </li>
+          </ol>
+          Sau khi xuất giấy mời, thông tin và giấy mời khách mới sẽ được lưu tại đề mục <strong>“Additional Guests”</strong> trong 24 tiếng để các anh chị tiện tải xuống, sau đó sẽ được tự động chuyển xuống đề mục của từng đơn vị hoặc cán bộ để quản lý.
+        </li>
+
+        <li>
+          Khách có thể RSVP bằng đường dẫn ngay trên giấy mời (nhấn/nhấp chuột trái vào tên khách). Sau khi khách RSVP, thông tin của khách tại cột <span class="field">Status</span> sẽ tự động chuyển thành <strong>“accepted”</strong> hoặc <strong>“declined”</strong>.
+        </li>
+      </ol>
+
+      <p class="footer-note">Trân trọng cảm ơn các anh chị.</p>
+    </div>
+  </div>
+</body>
+</html>
